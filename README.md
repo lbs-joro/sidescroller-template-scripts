@@ -56,7 +56,9 @@ Scriptet gör att liven minskar hos en `PlayerHealth` komponenent när objekten 
 
 * `Hurt Amount` hur många liv som tas bort vid kollision.
 
+### `SoundManager`
 
+Scriptet lägger du på *ett objekt* i scenen där du kan dra in flera "ljudeffekt-prefabs", samt ge de namn. För att "spawna" en ljudeffekt kan du då skriva `SoundManager.instance.PlaySoundEffect("ljudeffekt")` där texten inom paranteserna representerar ljudeffektens namn.
 
 
 
